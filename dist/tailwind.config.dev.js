@@ -1,3 +1,5 @@
+"use strict";
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./public/**/*.{html,js}"],
@@ -6,22 +8,25 @@ module.exports = {
       fontFamily: {
         Karla: ['Karla', 'sans-serif']
       },
-      colors:{
-        'light-coffee':'#C89F94',
+      colors: {
+        'light-coffee': '#C89F94'
       },
       keyFrame: {
         keyframes: {
           slideDown: {
-            '0%': { transform: 'translateY(-100%)' },
-            '100%': { transform: 'translate(0)' },
+            '0%': {
+              transform: 'translateY(-100%)'
+            },
+            '100%': {
+              transform: 'translate(0)'
+            }
           }
         },
         animation: {
-          slideDown: 'slideDown .4s ease-in-out',
+          slideDown: 'slideDown .4s ease-in-out'
         }
       }
-    },
+    }
   },
-  plugins: [],
-}
-
+  plugins: []
+};
