@@ -11,20 +11,18 @@ module.exports = {
       colors: {
         'light-coffee': '#C89F94'
       },
-      keyFrame: {
-        keyframes: {
-          slideDown: {
-            '0%': {
-              transform: 'translateY(-100%)'
-            },
-            '100%': {
-              transform: 'translate(0)'
-            }
+      keyframes: {
+        slideDown: {
+          '0%': {
+            transform: 'translateY(-100%)'
+          },
+          '100%': {
+            transform: 'translate(0)'
           }
-        },
-        animation: {
-          slideDown: 'slideDown .4s ease-in-out'
         }
+      },
+      animation: {
+        slideDown: 'slideDown .4s ease-in-out'
       }
     }
   },
